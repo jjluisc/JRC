@@ -69,9 +69,7 @@ h3.info4{
 	-webkit-background-clip: text;
 	left: 30px;
 }
-.text-muted{
-	color: black;
-}
+
 .cont{
 	position: relative;
     text-align: center;
@@ -137,7 +135,7 @@ align-content: center;
 .botonera{
 	position: relative;
 	display: flex;
-	padding: 1rem 1rem;
+	padding: 1rem 0rem;
 	margin: auto;
 	justify-content: space-evenly;
 
@@ -206,8 +204,7 @@ footer {
 }
 
 .card.card-orange::before{
-	background: linear-gradient(170deg, rgb(45, 206, 207
-	),rgb(12, 24, 31)), rgb(11, 23,30);
+	background: linear-gradient(to right, rgb(197, 50, 37),rgb(113, 39, 26) ,rgb(116, 40, 27))
 }
 
 .card h2{
@@ -231,6 +228,7 @@ footer {
 }
 .grib-layout{
 	grid-template-columns: auto auto;
+	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr)); 
 	display: grid;
 	width: 80%;
 	margin: 0 auto;
